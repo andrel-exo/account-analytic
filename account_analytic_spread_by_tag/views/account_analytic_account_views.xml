@@ -17,12 +17,12 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='code']" position="after">
                 <div colspan="2">
-                    <group string="Spreading" name="spreading">>
+                    <group string="Spreading" name="spreading">
                         <field
-                        name="mapped_analytic_tag_ids"
-                        string="Tags Mapping"
-                        widget="many2many_tags"
-                    />
+                            name="mapped_analytic_tag_ids"
+                            string="Tags Mapping"
+                            widget="many2many_tags"
+                        />
                     </group>
                 </div>
             </xpath>
