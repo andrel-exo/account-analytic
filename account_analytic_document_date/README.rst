@@ -53,20 +53,20 @@ Usage
 
 1. **Set Document Date on Invoice:**
 
-   - Navigate to the invoice and set the analytic document date.
-   - If the analytic document date is not set, it will automatically be
-     assigned the invoice date upon confirmation.
+   -  Navigate to the invoice and set the analytic document date.
+   -  If the analytic document date is not set, it will automatically be
+      assigned the invoice date upon confirmation.
 
 2. **Analytic Line Generation:**
 
-   - If any line has analytic information, the generated analytic entry
-     will inherit the analytic document date.
+   -  If any line has analytic information, the generated analytic entry
+      will inherit the analytic document date.
 
 3. **Setting Document Date in Reconcile View:**
 
-   - You can also set the analytic document date from the reconciliation
-     view, but this option is available only during manual
-     reconciliation.
+   -  You can also set the analytic document date from the
+      reconciliation view, but this option is available only during
+      manual reconciliation.
 
 Bug Tracker
 ===========
@@ -89,10 +89,10 @@ Authors
 Contributors
 ------------
 
-- ``APSL - Nagarro <https://apsl.tech>``\ \_\_:
+-  ``APSL - Nagarro <https://apsl.tech>``\ \_\_:
 
-  - Miquel Pascual
-  - Bernat Obrador
+   -  Miquel Pascual
+   -  Bernat Obrador
 
 Maintainers
 -----------
@@ -107,13 +107,16 @@ OCA, or the Odoo Community Association, is a nonprofit organization whose
 mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
-.. |maintainer-mpascual, BernatObrador| image:: https://github.com/mpascual, BernatObrador.png?size=40px
-    :target: https://github.com/mpascual, BernatObrador
-    :alt: mpascual, BernatObrador
+.. |maintainer-mpascuall| image:: https://github.com/mpascuall.png?size=40px
+    :target: https://github.com/mpascuall
+    :alt: mpascuall
+.. |maintainer-BernatObrador| image:: https://github.com/BernatObrador.png?size=40px
+    :target: https://github.com/BernatObrador
+    :alt: BernatObrador
 
-Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
+Current `maintainers <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-mpascual, BernatObrador| 
+|maintainer-mpascuall| |maintainer-BernatObrador| 
 
 This module is part of the `OCA/account-analytic <https://github.com/OCA/account-analytic/tree/16.0/account_analytic_document_date>`_ project on GitHub.
 

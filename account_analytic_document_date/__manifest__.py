@@ -6,7 +6,7 @@
     "version": "16.0.1.0.0",
     "website": "https://github.com/OCA/account-analytic",
     "author": "APSL-Nagarro, Odoo Community Association (OCA)",
-    "maintainers": ["mpascual, BernatObrador"],
+    "maintainers": ["mpascuall", "BernatObrador"],
     "license": "AGPL-3",
     "application": False,
     "installable": True,
