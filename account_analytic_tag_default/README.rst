@@ -47,6 +47,12 @@ Usage
 Go to an invoice and select a analytic account in a line, default tags for the
 account are automatically applied.
 
+Known issues / Roadmap
+======================
+
+It is recommended to deprecate this module in newer versions in favor of default
+functionally of analytic defaults, since it support now tags.
+
 Bug Tracker
 ===========
 
