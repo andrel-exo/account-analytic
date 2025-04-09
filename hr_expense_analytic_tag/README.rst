@@ -62,6 +62,10 @@ Contributors
   - Víctor Martínez
   - Pedro M. Baeza
 
+- `Ecosoft <https://ecosoft.co.th>`__:
+
+  - Saran Lim.
+
 Maintainers
 -----------
 
