@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-account-analytic"
-version = "17.0.20250602.2"
+version = "17.0.20250602.3"
 dependencies = [
     "odoo-addon-account_analytic_distribution_manual>=17.0dev,<17.1dev",
     "odoo-addon-account_analytic_distribution_manual_date>=17.0dev,<17.1dev",
@@ -18,6 +18,7 @@ dependencies = [
     "odoo-addon-pos_analytic_by_config>=17.0dev,<17.1dev",
     "odoo-addon-purchase_analytic>=17.0dev,<17.1dev",
     "odoo-addon-purchase_analytic_tag>=17.0dev,<17.1dev",
+    "odoo-addon-purchase_request_analytic>=17.0dev,<17.1dev",
     "odoo-addon-purchase_stock_analytic>=17.0dev,<17.1dev",
     "odoo-addon-stock_analytic>=17.0dev,<17.1dev",
     "odoo-addon-stock_landed_costs_analytic>=17.0dev,<17.1dev",
