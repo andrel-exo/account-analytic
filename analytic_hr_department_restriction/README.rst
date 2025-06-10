@@ -45,8 +45,8 @@ all plans and analytical accounts without restrictions.
 Configuration
 =============
 
-- Your user must have the "Analytic Accounting" permission.
-- Create an employee linked to your user with a defined department.
+-  Your user must have the "Analytic Accounting" permission.
+-  Create an employee linked to your user with a defined department.
 
 Usage
 =====
@@ -84,10 +84,10 @@ Authors
 Contributors
 ------------
 
-- `Tecnativa <https://www.tecnativa.com>`__:
+-  `Tecnativa <https://www.tecnativa.com>`__:
 
-  - Víctor Martínez
-  - Pedro M. Baeza
+   -  Víctor Martínez
+   -  Pedro M. Baeza
 
 Maintainers
 -----------
