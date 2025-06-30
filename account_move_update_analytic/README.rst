@@ -48,12 +48,12 @@ Usage
 3. Analytic lines will be dropped from current analytic account and
    recreated on new analytic distribution.
 
-|image1|
+|Update from Invoice|
 
-|image2|
+|Update from Journals|
 
-.. |image1| image:: https://raw.githubusercontent.com/OCA/account-analytic/17.0/account_move_update_analytic/static/description/update_from_invoice.png
-.. |image2| image:: https://raw.githubusercontent.com/OCA/account-analytic/17.0/account_move_update_analytic/static/description/update_from_journals.png
+.. |Update from Invoice| image:: https://raw.githubusercontent.com/OCA/account-analytic/17.0/account_move_update_analytic/static/description/update_from_invoice.png
+.. |Update from Journals| image:: https://raw.githubusercontent.com/OCA/account-analytic/17.0/account_move_update_analytic/static/description/update_from_journals.png
 
 Bug Tracker
 ===========
@@ -80,6 +80,9 @@ Contributors
 -  Rémi - Le Filament <remi-filament>
 -  Eduardo de Miguel (`Moduon <https://www.moduon.team/>`__)
 -  Rafael Blasco (`Moduon <https://www.moduon.team/>`__)
+-  `APSL-Nagarro <https://apsl.tech>`__:
+
+   -  Antoni Marroig <amarroig@apsl.net>
 
 Maintainers
 -----------
