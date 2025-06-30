@@ -8,7 +8,7 @@ from odoo.tests import TransactionCase
 class TestAccountMoveDocumentDate(TransactionCase):
     @classmethod
     def setUpClass(cls):
-        super(TestAccountMoveDocumentDate, cls).setUpClass()
+        super().setUpClass()
         cls.account_move_model = cls.env["account.move"]
 
         cls.partner = cls.env["res.partner"].create(
