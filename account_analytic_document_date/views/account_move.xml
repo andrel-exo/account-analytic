@@ -10,7 +10,7 @@
             <xpath expr="//field[@name='invoice_date']" position="after">
                 <field
                     name="analytic_document_date"
-                    attrs="{'readonly': [('state', 'not in', ['draft'])]}"
+                    readonly="state != 'draft'"
                     groups="analytic.group_analytic_accounting"
                 />
             </xpath>

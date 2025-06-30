@@ -14,7 +14,8 @@
                 <field
                     name="analytic_document_date"
                     widget="date"
-                    attrs="{'invisible': [('analytic_distribution', '=', False)], 'readonly': [('is_reconciled', '=', True)]}"
+                    invisible="not analytic_distribution"
+                    readonly="is_reconciled"
                     groups="analytic.group_analytic_accounting"
                 />
             </xpath>

@@ -34,7 +34,7 @@
             <xpath expr="//field[@name='date']" position="after">
                 <field name="document_date" />
             </xpath>
-            <xpath expr="//filter[@name='date']" position="after">
+            <xpath expr="//filter[@name='month']" position="after">
                 <filter name="document_date" date="document_date" />
             </xpath>
             <xpath expr="//group//filter[@name='group_date']" position="after">

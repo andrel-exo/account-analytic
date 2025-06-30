@@ -23,7 +23,6 @@ class TestAccountMoveDocumentDate(TransactionCase):
             {
                 "name": "Plan 1",
                 "default_applicability": "unavailable",
-                "company_id": False,
             }
         )
 
