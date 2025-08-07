@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-07 10:25+0000\n"
+"PO-Revision-Date: 2025-08-07 14:25+0000\n"
 "Last-Translator: Miquel Romera <mromera@pmsastro.es>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -38,25 +38,25 @@ msgstr "Cuentas analíticas"
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_distribution_search
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__analytic_distribution_search
 msgid "Analytic Distribution Search"
-msgstr ""
+msgstr "Búsqueda de Distribución Analítca"
 
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_precision
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__analytic_precision
 msgid "Analytic Precision"
-msgstr ""
+msgstr "Precisión Analítica"
 
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_account_ids
 #: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__analytic_account_ids
 msgid "Analytic accounts computed from analytic distribution."
-msgstr ""
+msgstr "Cuentas analíticas calculadas a partir de la distribución analítica."
 
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_distribution_import
 #: model:ir.model.fields,field_description:stock_landed_costs_analytic.field_stock_valuation_adjustment_lines__analytic_distribution_import
 msgid "Analytic distribution (importable)"
-msgstr ""
+msgstr "Distribución analítica (importable)"
 
 #. module: stock_landed_costs_analytic
 #: model:ir.model.fields,help:stock_landed_costs_analytic.field_stock_landed_cost_lines__analytic_account_names
