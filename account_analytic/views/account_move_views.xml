@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="account_move_view_form_inherit_analytic" model="ir.ui.view">
+        <field name="name">account.move.form (account_analytic)</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//group[@id='header_left_group']" position="inside">
+                <field
+                    name="analytic_distribution"
+                    widget="analytic_distribution"
+                    groups="analytic.group_analytic_accounting"
+                    readonly="state in ('done', 'cancel')"
+                    invisible="move_type not in ('out_invoice', 'out_refund', 'in_invoice', 'in_refund', 'out_receipt', 'in_receipt')"
+                />
+            </xpath>
+            <xpath
+                expr="//page[@id='aml_tab']//field[@name='line_ids']"
+                position="attributes"
+            >
+                <attribute name="context" operation="update">
+                    {
+                        "default_analytic_distribution": analytic_distribution,
+                    }
+                </attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
